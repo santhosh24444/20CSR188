@@ -8,7 +8,7 @@ app.use(bodyparser.json());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Running");
+  res.send("Working");
 });
 
 app.get("/numbers", async (req, res) => {
